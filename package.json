@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "npm run generate && npx marked README.md -o dist/index.html && npx gh-pages -d dist"
+    "deploy": "npm run generate && npx gh-pages -d .output/public"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
